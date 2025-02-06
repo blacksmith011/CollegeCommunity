@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Icons  -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Favicon  -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!-- Stylesheet Link  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="stylesheets/style.css" />
+
+  <title>THETAVERSE</title>
+</head>
+
+<body>
+
+  <!-- Logo and Navbar  -->
+  <header class="header">
+    <a href="#" class="logo">THETAVERSE</a>
+    <!-- <button onclick="Toggle()" id="menu-btn">O</button> -->
+    <i class='bx bx-menu' onclick="Toggle()" id="menu-icon"></i>
+    <form class="search-bar">
+      <input
+          type="text"
+          class="search-input"
+          placeholder="Search Thetaverse..."
+          aria-label="Search">
+      <button type="submit" class="search-button"><i class="bi bi-search"></i></button>
+  </form>
+    <nav class="navbar" id="nav">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="#" class="nav-btn">Course</a>
+      </div>
+      <a href="#">Team</a>
+      <a href="#footer">Contact</a>
+      <a href="./Login/index.html" class="login-btn">LOGIN</a>
+
+    </nav>
+  </header>
+
+
+  <!-- Main Section  -->
+  <section class="home" id="home">
+    <div class="home-content" data-aos="fade-right">
+      <h3 class="welcome-text">Welcome to</h3>
+      <h1 class="main-title" data-fill-text="THETAVERSE">THETAVERSE</h1>
+      <h3 class="sub-title">The Future of College Communities </h3>
+      <p class="description">
+        Connecting students, mentors, and industry professionals through AI-powered networking, hackathons, and career opportunities.
+      </p>
+  
+      <!-- Call-to-Action Buttons -->
+      <div class="cta-buttons">
+        <a href="login/index.html" class="btn-primary">Get Started</a>
+        <a href="#events" class="btn-secondary">Our Vision</a>
+      </div>
+  
+      <!-- Social Media Icons -->
+      <div class="social-media">
+        <a href="https://instagram.com/ioitcesa" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/cesa-ioit/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://discord.gg/upkjS4Xq" target="_blank"><i class='bx bxl-discord-alt'></i></a>
+        <a href="https://youtube.com/@ioitcesa2954" target="_blank"><i class='bx bxl-youtube'></i></a>
+      </div>
+    </div>
+  
+    <!-- Animated Logo/Image -->
+    <div class="home-img" data-aos="fade-left">
+      <img src="images/logo.jpg" alt="Thetaverse Logo" class="logo-image" />
+    </div>
+  </section>
+  
+
+  <!-- Event Section  -->
+  <section class="events" id="events">
+
+    <!-- Our Vision Section -->
+    <h3 class="vision-heading" data-aos="fade-up" data-aos-delay="100">Our Vision</h3>
+    <div class="event-container" data-aos="fade-up" data-aos-delay="300">
+        <div class="event-box">
+            <i class='bx bx-building'></i>
+            <h3>Thetaverse Innovation Museum</h3>
+            <p>A futuristic museum showcasing **cutting-edge student projects, AI breakthroughs, and technological advancements**, similar to the Dubai Future Museum.</p>
+            <a href="museum.html" class="btn">Know More</a>
+        </div>
+        <div class="event-box">
+          <i class='bx bxs-graduation'></i>
+            <h3>Thetaverse Institute for Innovation & Research</h3>
+            <p>A world-class **educational hub** focusing on **AI, technology, entrepreneurship, and hands-on learning** through hackathons and real-world projects.</p>
+            <a href="#" class="btn">Know More</a>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- Team Section  -->
+  <section class="team" id="team">
+    <h2 class="heading" data-aos="fade-up">🚀 Meet The Visionaries</h2>
+
+    <div class="team-container" data-aos="fade-up">
+        <!-- Arpit -->
+        <div class="team-box">
+            <div class="team-img">
+                <img src="images/arpit.jpg" alt="Arpit">
+            </div>
+            <h3>Arpit</h3>
+            <p>🌟 Co-Founder | Tech Enthusiast | Visionary Innovator</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <!-- Aryan -->
+        <div class="team-box">
+            <div class="team-img">
+                <img src="images/aryan.jpg" alt="Aryan">
+            </div>
+            <h3>Aryan</h3>
+            <p>🚀 Co-Founder | AI & Future Tech Leader | B.Tech Student</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- features -->
+  <section class="features" id="features">
+    <h2 class="heading" data-aos="fade-up">🚀 Key Features of Thetaverse</h2>
+
+    <div class="features-container" data-aos="fade-up">
+        <!-- Feature 1: Networking & Collaboration -->
+        <div class="feature-box">
+            <div class="feature-img">
+                <img src="images/networking.jpg" alt="Networking & Collaboration">
+            </div>
+            <h3>Networking & Collaboration</h3>
+            <p>🤝 AI-powered student-to-student and mentor matching. <br> 📚 Inter-college forums, knowledge sharing, and project collaborations.</p>
+        </div>
+
+        <!-- Feature 2: Hackathons & Competitions -->
+        <div class="feature-box">
+            <div class="feature-img">
+                <img src="images/hackathon.jpg" alt="Hackathons & Competitions">
+            </div>
+            <h3>Hackathons & Competitions</h3>
+            <p>🏆 AI-driven team formation for hackathons. <br> 💼 Direct engagement with companies sponsoring challenges.</p>
+        </div>
+
+        <!-- Feature 3: Internships & Job Matching -->
+        <div class="feature-box">
+            <div class="feature-img">
+                <img src="images/jobs.jpg" alt="Internships & Job Matching">
+            </div>
+            <h3>Internships & Job Matching</h3>
+            <p>🎯 AI-based recruiter-student connections. <br> ✅ Verified company listings and direct applications.</p>
+        </div>
+
+        <!-- Feature 4: Skill Development & Workshops -->
+        <div class="feature-box">
+            <div class="feature-img">
+                <img src="images/skill_development.jpg" alt="Skill Development & Workshops">
+            </div>
+            <h3>Skill Development & Workshops</h3>
+            <p>📺 Live expert sessions, webinars, and training programs. <br> 📜 Certification courses with industry partners.</p>
+        </div>
+
+        <!-- Feature 5: Exclusive Community Perks -->
+        <div class="feature-box">
+            <div class="feature-img">
+                <img src="images/perks.jpg" alt="Exclusive Community Perks">
+            </div>
+            <h3>Exclusive Community Perks</h3>
+            <p>💰 Special student discounts on tech tools & resources. <br> 🎓 University partnerships for premium college content.</p>
+        </div>
+    </div>
+</section>
+
+
+  <!-- ~~~~~~~ Testimonials-Section-Start ~~~~~~~~~~~~~ -->
+
+  <section class="testimonials" id="testimonials">
+    <h2 class="heading" data-aos="fade-up" data-aos-duration="800">Testimonials</h2>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  Participating in the CESA chess competition allowed me to develop and hone various skills, both on and off the chessboard.
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Vedantraje Nimbalkar
+              </div>
+            </div>
+            <div class="back">
+              <img src="images/vedantraje.jpg" alt="">
+              <h2>Vedantraje Nimbalkar</h2>
+              <h2>Chess Runner-up</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  Last year, I was runner up for the kalakar katta event organized by CESA and it was really amazing one!!! Basically, the credit goes to all those who help me out in managing all the activities and participating in it.Thank you CESA and team!!!
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Sakshi Shirsathe
+              </div>
+            </div>
+            <div class="back">
+              <img src="images/sakshi_shirsathe.jpg" alt="">
+              <h2>Sakshi Shirsathe</h2>
+              <h2>Kalakar Katta Runner-up</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  I'm pleased to commend CESA for their amazing event management. Their flawless execution and dedication to sporting greatness astonished me. I'm looking forward to take part in CESA activities in the future. 
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Chirag Mohitkar
+              </div>
+            </div>
+            <div class="back">
+              <img src="images/Chirag.jpg" alt="">
+              <h2>Chirag Mohitkar</h2>
+              <h2>Table-tennis Runner-up</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  I'm thankful to CESA for conducting such amazing technical events where I can test my skills and win amazing prizes. Their efforts are appreciable! I'm eagerly waiting to explore more such opportunities and technologies initiated by CESA in the future.
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Saadgi Pandey
+              </div>
+            </div>
+            <div class="back">
+              <img src="images/saadgi.jpg" alt="">
+              <h2>Saadgi Pandey</h2>
+              <h2>Chess Winner</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  I wanted to express my heartfelt appreciation for all the hard work and dedication CESA team takes in conducting all the events. I'm thankful for being a part of CESA events and looking forward to be a part of many more!
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Rishika Kavade
+              </div>
+            </div>
+            <div class="back">
+              <img src="images/rishika.jpg" alt="">
+              <div>Rishika Kavade</div>
+              <div>Shor-in-the-City Winner</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  CESA offers a variety of events and resources that help students develop their skills, network with professionals, and prepare for careers in the field. I am grateful for the support that CESA has provided me throughout my college career. 
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Siddhant Sangale
+              </div>
+            </div>
+            <div class="back">
+              <img src="images/Sidd.jpg" alt="">
+              <h2>Siddhant Sangale</h2>
+              <h2>Chess Winner</h2>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- ~~~~~~~ Testimonials-Section-End ~~~~~~~~~~~~~ -->
+
+
+
+  <!-- Footer Section -->
+
+  <footer class="footer" id="footer">
+
+    <div class="followus" data-aos="fade-right" data-aos-offset="100">
+      <h2 class="footer-heading">Follow Us</h2>
+      <div>
+        <div class="social-media-footer">
+<!--           <a href="#"><i class='bx bxl-facebook'></i></a> -->
+          <a href="https://instagram.com/ioitcesa?igshid=MzRlODBiNWFlZA==
+          " target="_blank"><i class='bx bxl-instagram'></i></a>
+          <a href="https://www.linkedin.com/in/cesa-ioit/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://discord.gg/upkjS4Xq
+          " target="_blank"><i class='bx bxl-discord-alt'></i></a>
+          <a href="https://youtube.com/@ioitcesa2954?si=slFAfkUp5796LXX3" target="_blank"><i class='bx bxl-youtube'></i></a>
+        </div>
+        <!-- <div class="rights">
+          <br>
+          <p> @Right Reserved by Abhi, Aditya, Yadnesh</p>
+        </div> -->
+      </div>
+    </div>
+    <div class="contactus" data-aos="fade-left" data-aos-offset="100">
+      <h2 class="footer-heading">Contact Us</h2>
+      <div class="contactus-content">
+        <p><span>Address</span> : GLA UNIVERSITY, MATHURA</p>
+        <p><span>Email</span> : thetaverse@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+  </footer>
+  <!-- Script  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 750,
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
